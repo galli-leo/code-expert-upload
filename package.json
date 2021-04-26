@@ -30,6 +30,10 @@
 		"extends": "stylelint-config-xo"
 	},
 	"dependencies": {
+		"crx-hotreload": "^1.0.6",
+		"idb": "^6.0.0",
+		"npx": "^10.2.2",
+		"web-ext": "^6.1.0",
 		"webext-options-sync": "^2.0.1",
 		"webextension-polyfill": "^0.7.0"
 	},

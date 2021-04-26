@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88E1019326375A2D00C81342 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E1019226375A2D00C81342 /* AppDelegate.swift */; };
+		88E1019626375A2D00C81342 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88E1019426375A2D00C81342 /* Main.storyboard */; };
+		88E1019826375A2D00C81342 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E1019726375A2D00C81342 /* ViewController.swift */; };
+		88E1019A26375A2E00C81342 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88E1019926375A2E00C81342 /* Assets.xcassets */; };
+		88E101A126375A2E00C81342 /* CodeExpert Upload Limit Enhancer Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 88E101A026375A2E00C81342 /* CodeExpert Upload Limit Enhancer Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		88E101A626375A2E00C81342 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E101A526375A2E00C81342 /* Cocoa.framework */; };
+		88E101A926375A2E00C81342 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E101A826375A2E00C81342 /* SafariWebExtensionHandler.swift */; };
+		88E101B926375A2F00C81342 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 88E101B626375A2F00C81342 /* icon.png */; };
+		88E101BA26375A2F00C81342 /* expert.js in Resources */ = {isa = PBXBuildFile; fileRef = 88E101B726375A2F00C81342 /* expert.js */; };
+		88E101BB26375A2F00C81342 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 88E101B826375A2F00C81342 /* manifest.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88E101A226375A2E00C81342 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88E1018626375A2D00C81342 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88E1019F26375A2E00C81342;
+			remoteInfo = "CodeExpert Upload Limit Enhancer Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		88E101B126375A2E00C81342 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				88E101A126375A2E00C81342 /* CodeExpert Upload Limit Enhancer Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		88E1018E26375A2D00C81342 /* CodeExpert Upload Limit Enhancer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CodeExpert Upload Limit Enhancer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88E1019126375A2D00C81342 /* CodeExpert_Upload_Limit_Enhancer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CodeExpert_Upload_Limit_Enhancer.entitlements; sourceTree = "<group>"; };
+		88E1019226375A2D00C81342 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88E1019526375A2D00C81342 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88E1019726375A2D00C81342 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88E1019926375A2E00C81342 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88E1019B26375A2E00C81342 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88E101A026375A2E00C81342 /* CodeExpert Upload Limit Enhancer Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CodeExpert Upload Limit Enhancer Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88E101A526375A2E00C81342 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		88E101A826375A2E00C81342 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		88E101AA26375A2E00C81342 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88E101AB26375A2E00C81342 /* CodeExpert_Upload_Limit_Enhancer_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CodeExpert_Upload_Limit_Enhancer_Extension.entitlements; sourceTree = "<group>"; };
+		88E101B626375A2F00C81342 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../distribution/icon.png; sourceTree = "<group>"; };
+		88E101B726375A2F00C81342 /* expert.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = expert.js; path = ../../distribution/expert.js; sourceTree = "<group>"; };
+		88E101B826375A2F00C81342 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../distribution/manifest.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88E1018B26375A2D00C81342 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88E1019D26375A2E00C81342 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E101A626375A2E00C81342 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88E1018526375A2D00C81342 = {
+			isa = PBXGroup;
+			children = (
+				88E1019026375A2D00C81342 /* CodeExpert Upload Limit Enhancer */,
+				88E101A726375A2E00C81342 /* CodeExpert Upload Limit Enhancer Extension */,
+				88E101A426375A2E00C81342 /* Frameworks */,
+				88E1018F26375A2D00C81342 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88E1018F26375A2D00C81342 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88E1018E26375A2D00C81342 /* CodeExpert Upload Limit Enhancer.app */,
+				88E101A026375A2E00C81342 /* CodeExpert Upload Limit Enhancer Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88E1019026375A2D00C81342 /* CodeExpert Upload Limit Enhancer */ = {
+			isa = PBXGroup;
+			children = (
+				88E1019126375A2D00C81342 /* CodeExpert_Upload_Limit_Enhancer.entitlements */,
+				88E1019226375A2D00C81342 /* AppDelegate.swift */,
+				88E1019426375A2D00C81342 /* Main.storyboard */,
+				88E1019726375A2D00C81342 /* ViewController.swift */,
+				88E1019926375A2E00C81342 /* Assets.xcassets */,
+				88E1019B26375A2E00C81342 /* Info.plist */,
+			);
+			path = "CodeExpert Upload Limit Enhancer";
+			sourceTree = "<group>";
+		};
+		88E101A426375A2E00C81342 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88E101A526375A2E00C81342 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88E101A726375A2E00C81342 /* CodeExpert Upload Limit Enhancer Extension */ = {
+			isa = PBXGroup;
+			children = (
+				88E101B526375A2F00C81342 /* Resources */,
+				88E101A826375A2E00C81342 /* SafariWebExtensionHandler.swift */,
+				88E101AA26375A2E00C81342 /* Info.plist */,
+				88E101AB26375A2E00C81342 /* CodeExpert_Upload_Limit_Enhancer_Extension.entitlements */,
+			);
+			path = "CodeExpert Upload Limit Enhancer Extension";
+			sourceTree = "<group>";
+		};
+		88E101B526375A2F00C81342 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				88E101B626375A2F00C81342 /* icon.png */,
+				88E101B726375A2F00C81342 /* expert.js */,
+				88E101B826375A2F00C81342 /* manifest.json */,
+			);
+			name = Resources;
+			path = "CodeExpert Upload Limit Enhancer Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88E1018D26375A2D00C81342 /* CodeExpert Upload Limit Enhancer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88E101B226375A2E00C81342 /* Build configuration list for PBXNativeTarget "CodeExpert Upload Limit Enhancer" */;
+			buildPhases = (
+				88E1018A26375A2D00C81342 /* Sources */,
+				88E1018B26375A2D00C81342 /* Frameworks */,
+				88E1018C26375A2D00C81342 /* Resources */,
+				88E101B126375A2E00C81342 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88E101A326375A2E00C81342 /* PBXTargetDependency */,
+			);
+			name = "CodeExpert Upload Limit Enhancer";
+			productName = "CodeExpert Upload Limit Enhancer";
+			productReference = 88E1018E26375A2D00C81342 /* CodeExpert Upload Limit Enhancer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88E1019F26375A2E00C81342 /* CodeExpert Upload Limit Enhancer Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88E101AE26375A2E00C81342 /* Build configuration list for PBXNativeTarget "CodeExpert Upload Limit Enhancer Extension" */;
+			buildPhases = (
+				88E1019C26375A2E00C81342 /* Sources */,
+				88E1019D26375A2E00C81342 /* Frameworks */,
+				88E1019E26375A2E00C81342 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CodeExpert Upload Limit Enhancer Extension";
+			productName = "CodeExpert Upload Limit Enhancer Extension";
+			productReference = 88E101A026375A2E00C81342 /* CodeExpert Upload Limit Enhancer Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88E1018626375A2D00C81342 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					88E1018D26375A2D00C81342 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					88E1019F26375A2E00C81342 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 88E1018926375A2D00C81342 /* Build configuration list for PBXProject "CodeExpert Upload Limit Enhancer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88E1018526375A2D00C81342;
+			productRefGroup = 88E1018F26375A2D00C81342 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88E1018D26375A2D00C81342 /* CodeExpert Upload Limit Enhancer */,
+				88E1019F26375A2E00C81342 /* CodeExpert Upload Limit Enhancer Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88E1018C26375A2D00C81342 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E1019A26375A2E00C81342 /* Assets.xcassets in Resources */,
+				88E1019626375A2D00C81342 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88E1019E26375A2E00C81342 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E101BA26375A2F00C81342 /* expert.js in Resources */,
+				88E101BB26375A2F00C81342 /* manifest.json in Resources */,
+				88E101B926375A2F00C81342 /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88E1018A26375A2D00C81342 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E1019826375A2D00C81342 /* ViewController.swift in Sources */,
+				88E1019326375A2D00C81342 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88E1019C26375A2E00C81342 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E101A926375A2E00C81342 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88E101A326375A2E00C81342 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88E1019F26375A2E00C81342 /* CodeExpert Upload Limit Enhancer Extension */;
+			targetProxy = 88E101A226375A2E00C81342 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88E1019426375A2D00C81342 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88E1019526375A2D00C81342 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88E101AC26375A2E00C81342 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88E101AD26375A2E00C81342 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		88E101AF26375A2E00C81342 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "CodeExpert Upload Limit Enhancer Extension/CodeExpert_Upload_Limit_Enhancer_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CodeExpert Upload Limit Enhancer Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.CodeExpert-Upload-Limit-Enhancer.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		88E101B026375A2E00C81342 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "CodeExpert Upload Limit Enhancer Extension/CodeExpert_Upload_Limit_Enhancer_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CodeExpert Upload Limit Enhancer Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.CodeExpert-Upload-Limit-Enhancer.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		88E101B326375A2E00C81342 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "CodeExpert Upload Limit Enhancer/CodeExpert_Upload_Limit_Enhancer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "CodeExpert Upload Limit Enhancer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.CodeExpert-Upload-Limit-Enhancer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		88E101B426375A2E00C81342 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "CodeExpert Upload Limit Enhancer/CodeExpert_Upload_Limit_Enhancer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "CodeExpert Upload Limit Enhancer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.CodeExpert-Upload-Limit-Enhancer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88E1018926375A2D00C81342 /* Build configuration list for PBXProject "CodeExpert Upload Limit Enhancer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88E101AC26375A2E00C81342 /* Debug */,
+				88E101AD26375A2E00C81342 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88E101AE26375A2E00C81342 /* Build configuration list for PBXNativeTarget "CodeExpert Upload Limit Enhancer Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88E101AF26375A2E00C81342 /* Debug */,
+				88E101B026375A2E00C81342 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88E101B226375A2E00C81342 /* Build configuration list for PBXNativeTarget "CodeExpert Upload Limit Enhancer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88E101B326375A2E00C81342 /* Debug */,
+				88E101B426375A2E00C81342 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88E1018626375A2D00C81342 /* Project object */;
+}

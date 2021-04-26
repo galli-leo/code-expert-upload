@@ -1,8 +1,8 @@
 {
-	"name": "Awesome Extension",
-	"version": "0.0.0",
-	"description": "An awesome new browser extension",
-	"homepage_url": "https://github.com/awesome-templates/browser-extension-template",
+	"name": "CodeExpert Upload Limit Enhancer",
+	"version": "0.0.1",
+	"description": "Enhances the upload limit for CodeExpert to be 100000MB :)",
+	"homepage_url": "https://github.com/galli-leo/code-expert-upload",
 	"manifest_version": 2,
 	"minimum_chrome_version": "74",
 	"applications": {
@@ -14,17 +14,10 @@
 	"icons": {
 		"128": "icon.png"
 	},
-	"permissions": [
-		"storage"
-	],
-	"options_ui": {
-		"chrome_style": true,
-		"page": "options.html"
-	},
-	"background": {
-		"persistent": false,
-		"scripts": [
-			"background.js"
-		]
-	}
+	"content_scripts" : [
+		{
+			"matches": ["https://expert.ethz.ch/**"],
+			"js": ["expert.js"]
+		}
+	]
 }
